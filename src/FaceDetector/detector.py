@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 import numpy as np
 
-from src.FaceDetector.ssd import FaceDetector as ssd
+from FaceDetector.src.FaceDetector.ssd import FaceDetector as ssd
 
 class IFaceDetector(metaclass=ABCMeta):
     """Interface for face detectors
